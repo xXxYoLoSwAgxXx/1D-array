@@ -3,12 +3,18 @@ Questions
 You must give a short explanation for each answer.
 
 1) Create a reference to an array of integers named "cat".
+  var cat = [1, 2, 3, 4, 5];
+  console.log(cat[3]);
+  I am creating an array called cat with integers inside the array. Then the question says create a reference to it so I called the 3rd value aka the 4th value of the cat array. 
 
 2) What is the output of the following code fragment?
 
 var cat = [2, 4, 6, 8];
 
 console.log(cat[0] + " " + cat[1]);
+
+2 4
+This is the output because it is calling cat 0 which is the first value in the cat array which is 2. Then it adds a space then after that it calls cat 1 which is 4. so the output of this console log would be 2 4.
 
 3) What is the output of the following code fragment?
 
@@ -19,14 +25,27 @@ y[1] = 88;
 
 console.log(y[0] + " " + y[1] + " " + y[5]);
 
+34 88 undefined
+
+This is the output because the input is y 0 first of all. The value for y 0 is given 34. Then theres a space. After that it says the input is y 1 which is 88. then it says y 5 but y 5 there is no value so the computer will give you the output of 34 88 undefined. 
+
 4) What is the output of the following code fragment?
 
 var zip = [7, 3, 4, 1, 9];
 
 console.log(zip[2+1]);
 
+1 
+
+This will give you 1 because it is says zip 3. This is zip 3 because 2 + 1 equals 3. the input is the third value aka 4th value. The value if you look at the zip array of zip[3] is 1. Thats is why the output is 1.
+
 5) What is the output of the following code fragment?
 
 var x = [7, 3, 4, , , , , , ];
 
 console.log((x[0] + x[1]) + " " + x[5]);
+
+10 undefined
+undefined
+
+This is the output because it is saying x[0] plus x[1]. this is 7 plus three which is 10. The first value is 10 then theres a space then x[5]. since there is no value for x[5] it will come out as undefined. This is why the output is 10 undefined. 
